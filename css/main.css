@@ -109,8 +109,10 @@ hr{
 
 .external{
     margin-top: 50px;
-    width: 100%;
-    height: 800px;
+
+    aspect-ratio: 1;
+
+	width: 100%;
     display: inline-block;
 }
 
