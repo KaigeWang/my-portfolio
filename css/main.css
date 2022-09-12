@@ -42,7 +42,7 @@ p{
 }
 
 hr{
-    color: #E4F9F5;
+    color: #66BFBF;
     border: dotted;
     border-bottom: none;
     width: 5%;
@@ -83,7 +83,7 @@ hr{
     margin-bottom: 50px;
 }
 
-.skills{
+.projects{
     margin-top: 50px;
 }
 
@@ -92,21 +92,46 @@ hr{
 }
 
 
-.skill-row{
+.project-row{
     text-align: left;
     margin: auto;
     margin-top: 50px;
     width: 50%;
     height: 250px;
 }
+.external-project-row{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 1000px;
+}
 
-.skill-1{
+.external{
+    margin-top: 50px;
+    width: 900px;
+    height: 800px;
+    display: inline-block;
+}
+
+.external-project-row>h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.external-project-row>p{
+    width: 80%; 
+    margin: auto;
+}
+
+
+.project-1{
     width: 200px;
     float:left;
     margin-right: 50px;
 }
 
-.skill-2{
+.project-2{
     width: 200px;
     float:right;
     margin-left: 50px;
@@ -158,3 +183,4 @@ text-decoration: none;
 .footer-link:hover{
     color:#E4F9F6
 }
+
